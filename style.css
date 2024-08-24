@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.main-div {
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    width: 80%;
+    height: 600px;
+    background-image: url("./images/ist.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    margin-top: 60px;
+    display: flex;
+    width: 100%;
+    padding: 0 40px;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.row h1 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.row h3 {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.second-column {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.bottom-container {
+    display: flex;
+    padding: 0 20px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    background-color: rgb(12, 12, 42);
+    margin-top: auto;
+}
+
+.today-weather {
+    display: flex;
+    width: 40%;
+}
+
+.today-weather .current-weather {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.today-background {
+    width: 100px;
+    display: flex;
+    height: 30px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(43, 43, 43);
+}
+
+.today-weather .current-weather img {
+    width: 100px;
+    height: 100px;
+}
+
+.weekday-card {
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.weekday-card img {
+    width: 70px;
+    height: 70px;
+}
